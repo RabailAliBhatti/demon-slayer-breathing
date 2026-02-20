@@ -1,0 +1,21 @@
+﻿components/gesture/GestureWindow.tsx(13,13): error TS2339: Property 'isCamActive' does not exist on type '{ hasPermission: boolean | null; stream: MediaStream | null; requestCamera: () => Promise<void>; stopCamera: () => void; videoRef: RefObject<HTMLVideoElement | null>; }'.
+components/scene/DemonSlayerScene.tsx(48,21): error TS2322: Type 'false | Element' is not assignable to type 'Element'.
+  Type 'boolean' is not assignable to type 'ReactElement<any, any>'.
+components/scene/DemonSlayerScene.tsx(50,29): error TS2322: Type '[number, number]' is not assignable to type '(Vector2 & (number | Vector2 | MutableOrReadonlyParameters<(x: number, y: number) => Vector2>)) | undefined'.
+  Type '[number, number]' is not assignable to type 'Vector2 & [x: number, y: number]'.
+    Type '[number, number]' is not assignable to type 'Vector2'.
+components/scene/DemonSlayerScene.tsx(51,29): error TS2322: Type '[number, number]' is not assignable to type '(Vector2 & (number | Vector2 | MutableOrReadonlyParameters<(x: number, y: number) => Vector2>)) | undefined'.
+  Type '[number, number]' is not assignable to type 'Vector2 & [x: number, y: number]'.
+    Type '[number, number]' is not assignable to type 'Vector2'.
+components/scene/DemonSlayerScene.tsx(52,29): error TS2322: Type '[number, number]' is not assignable to type '(Vector2 & (number | Vector2 | MutableOrReadonlyParameters<(x: number, y: number) => Vector2>)) | undefined'.
+  Type '[number, number]' is not assignable to type 'Vector2 & [x: number, y: number]'.
+    Type '[number, number]' is not assignable to type 'Vector2'.
+components/scene/SlashEffect.tsx(72,52): error TS2339: Property 'geometry' does not exist on type 'never'.
+components/scene/SlashEffect.tsx(73,52): error TS2339: Property 'geometry' does not exist on type 'never'.
+components/scene/SlashEffect.tsx(103,40): error TS2322: Type 'Mesh<BufferGeometry<NormalBufferAttributes, BufferGeometryEventMap>, Material | Material[], Object3DEventMap> | null' is not assignable to type 'null'.
+  Type 'Mesh<BufferGeometry<NormalBufferAttributes, BufferGeometryEventMap>, Material | Material[], Object3DEventMap>' is not assignable to type 'null'.
+components/scene/SlashEffect.tsx(108,40): error TS2322: Type 'Mesh<BufferGeometry<NormalBufferAttributes, BufferGeometryEventMap>, Material | Material[], Object3DEventMap> | null' is not assignable to type 'null'.
+  Type 'Mesh<BufferGeometry<NormalBufferAttributes, BufferGeometryEventMap>, Material | Material[], Object3DEventMap>' is not assignable to type 'null'.
+components/scene/StarField.tsx(19,18): error TS2741: Property 'args' is missing in type '{ attach: string; count: number; array: Float32Array<ArrayBuffer>; itemSize: number; }' but required in type 'Mutable<Overwrite<Partial<Overwrite<BufferAttribute, MathProps<BufferAttribute> & ReactProps<BufferAttribute>>>, Omit<...>>>'.
+hooks/useAudioEngine.ts(119,45): error TS2353: Object literal may only specify known properties, and 'frequency' does not exist in type 'RecursivePartial<MetalSynthOptions>'.
+hooks/useAudioEngine.ts(125,15): error TS2554: Expected 2-4 arguments, but got 1.
